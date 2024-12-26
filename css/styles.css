@@ -52,7 +52,13 @@ body {
   .nav a:hover {
     color: #404bbf;
   }
+  .nav a:focus {
+    color: #404bbf;
+  }
   .address a:hover {
+    color: #404bbf;
+  }
+  .address a:focus {
     color: #404bbf;
   }
 
