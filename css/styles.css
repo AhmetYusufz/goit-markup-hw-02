@@ -4,6 +4,9 @@ body {
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
+a {
+  text-decoration: none;
+}
 
 header {
   height: 150px;
@@ -162,10 +165,7 @@ h2 {
   
 }
 .itemfour h2 {
-  position: relative;
-  display: inline-block;
   color: #2e2f42;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
@@ -197,13 +197,12 @@ p {
   color: #f4f4fd;}
  
 .footer > .logo-end {
-  font-family: "Raleway", sans-serif;
   color: #4d5ae5;
-  font-size: 18px;
-  line-height: 1.17;
   font-weight: 700;
-  margin-left: 100px;
-  letter-spacing: 0.03em;
+  font-size: 18px;
+  line-height: 1.1;
+  letter-spacing: 3%;
+  font-family: "Raleway";
   text-transform: uppercase;
 }
 .footer a > .studio {
