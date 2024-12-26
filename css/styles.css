@@ -22,7 +22,6 @@ body {
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
-  
 }
 .address {
   font-style: normal;
@@ -34,24 +33,24 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  }
-  .nav a:hover {
-    color: #404bbf;
-  }
-  .nav a:focus {
-    color: #404bbf;
-  }
-  .address a:hover {
-    color: #404bbf;
-  }
-  .address a:focus {
-    color: #404bbf;
-  }
+}
+.nav a:hover {
+  color: #404bbf;
+}
+.nav a:focus {
+  color: #404bbf;
+}
+.address a:hover {
+  color: #404bbf;
+}
+.address a:focus {
+  color: #404bbf;
+}
 .item1 {
   background-color: #2e2f42;
   position: relative;
   display: block;
-  font-family: "Roboto",sans-serif;
+  font-family: "Roboto", sans-serif;
   text-align: center;
 }
 .item1 h1 {
@@ -78,14 +77,14 @@ body {
 .item2 li {
   list-style: none;
 }
-.item2 li h3  {
+.item2 div h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.item2 p {
+.item2 div p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -100,19 +99,19 @@ body {
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
-.item3 li {
+.item3 div {
   background-color: #ffffff;
   font-size: 20px;
   line-height: 24px;
- }
-.item3 li h3 {
+}
+.item3 div h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.item3 li p {
+.item3 div p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -131,14 +130,14 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.item4 li h3 {
+.item4 div h3 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
 }
-.item4 li p {
+.item4 div p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
