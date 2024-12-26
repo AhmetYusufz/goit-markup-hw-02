@@ -14,7 +14,6 @@ body {
   letter-spacing: 0.03em;
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
-  text-transform: none;
 }
 .nav-1 .logo-1 .studio {
   color: #2e2f42;
@@ -49,10 +48,10 @@ body {
   cursor: pointer;
 
   }
-  .nav a:hover {
+  .nav-1 a:hover {
     color: #404bbf;
   }
-  .nav a:focus {
+  .nav-1 a:focus {
     color: #404bbf;
   }
   .address a:hover {
