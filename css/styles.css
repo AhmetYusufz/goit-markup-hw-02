@@ -1,31 +1,41 @@
 body {
+ 
   color: #434455;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
-.logo {
+
+
+.nav .logo-1{
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   color: #4d5ae5;
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
 }
-.studio {
+.nav .logo-1 .studio {
   color: #2e2f42;
 }
-.menu a {
+
+
+
+.nav .menu a {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
+  
 }
 .address {
   font-style: normal;
 }
+
+  
+
 .address li a {
   text-decoration: none;
   font-style: normal;
@@ -33,27 +43,29 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-}
-.nav a:hover {
-  color: #404bbf;
-}
-.nav a:focus {
-  color: #404bbf;
-}
-.address a:hover {
-  color: #404bbf;
-}
-.address a:focus {
-  color: #404bbf;
-}
-.item1 {
+
+  }
+  .nav a:hover {
+    color: #404bbf;
+  }
+  .nav a:focus {
+    color: #404bbf;
+  }
+  .address a:hover {
+    color: #404bbf;
+  }
+  .address a:focus {
+    color: #404bbf;
+  }
+
+.item-1 {
   background-color: #2e2f42;
   position: relative;
   display: block;
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Arial, sans-serif;
   text-align: center;
 }
-.item1 h1 {
+.item-1 h1 {
   color: white;
   font-size: 56px;
   line-height: 1.07;
@@ -61,66 +73,82 @@ body {
   position: relative;
   display: inline-block;
   text-align: center;
+
 }
-.item1 button {
+.item-1 button {
   background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+
 }
-.item1 button:hover {
+.item-1 button:hover {
   background-color: #404bbf;
 }
-.item2 li {
-  list-style: none;
+.item-1 button:focus {
+  background-color: #404bbf;
 }
-.item2 div h3 {
+
+
+.item-2 li {
+ 
+  list-style: none;
+
+}
+.item-2 li > .h-first {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.item2 div p {
+.item-2 li > .p-first {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+ 
 }
-.item3 {
+
+.item-3 {
   background-color: #f4f4fd;
+
 }
-.item3 h2 {
+.item-3 h2 {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
-.item3 div {
+.item-3 li {
   background-color: #ffffff;
   font-size: 20px;
   line-height: 24px;
-}
-.item3 div h3 {
+ }
+.item-3 li h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.item3 div p {
+.item-3 li p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.item4 {
+
+.item-4 {
   background-color: #ffffff;
+
+  
 }
-.item4 h2 {
+.item-4 h2 {
   position: relative;
   display: inline-block;
   color: #2e2f42;
@@ -130,24 +158,29 @@ body {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.item4 div h3 {
+
+
+  
+
+.item-4 li h3 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
 }
-.item4 div p {
+.item-4 li p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
-.footer {
+
+footer {
   background-color: #2e2f42;
-  color: #f4f4fd;
-}
-.logo2 {
+  color: #f4f4fd;}
+ 
+.logo-2 {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -156,11 +189,10 @@ body {
   margin-left: 100px;
   letter-spacing: 0.03em;
 }
-.studio2 {
+.studio {
   color: #f4f4fd;
 }
-.footer p {
+footer p {
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 0.02em;
-}
+  letter-spacing: 0.02em;}
