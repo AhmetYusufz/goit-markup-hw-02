@@ -6,7 +6,7 @@ body {
 }
 
 
-.nav-1 .logo-1{
+.nav .logo-one {
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
@@ -15,22 +15,20 @@ body {
   color: #4d5ae5;
   font-family: "Raleway", sans-serif;
 }
-.nav-1 .logo-1 .studio {
+.nav .logo-one > .studio {
   color: #2e2f42;
 }
 
 
 
-.nav-1 .menu a {
+.nav .list-one a {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
-}
-.nav-1 .menu a:hover {
-  color: #404BBF
+  
 }
 .address {
   font-style: normal;
@@ -45,13 +43,12 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  cursor: pointer;
-
   }
-  .nav-1 a:hover {
+
+  .nav a:hover {
     color: #404bbf;
   }
-  .nav-1 a:focus {
+  .nav a:focus {
     color: #404bbf;
   }
   .address a:hover {
@@ -61,14 +58,14 @@ body {
     color: #404bbf;
   }
 
-.item-1 {
+.itemone {
   background-color: #2e2f42;
   position: relative;
   display: block;
   font-family: "Roboto", Arial, sans-serif;
   text-align: center;
 }
-.item-1 h1 {
+.itemone h1 {
   color: white;
   font-size: 56px;
   line-height: 1.07;
@@ -78,7 +75,7 @@ body {
   text-align: center;
 
 }
-.item-1 button {
+.itemone button {
   background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   color: #ffffff;
@@ -89,27 +86,27 @@ body {
   cursor: pointer;
 
 }
-.item-1 button:hover {
+.itemone button:hover {
   background-color: #404bbf;
 }
-.item-1 button:focus {
+.itemone button:focus {
   background-color: #404bbf;
 }
 
 
-.item-2 li {
+.itemtwo li {
  
   list-style: none;
 
 }
-.item-2 li > .h-first {
+.itemtwo li > .h-first {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.item-2 li > .p-first {
+.itemtwo li > .p-first {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -117,41 +114,41 @@ body {
  
 }
 
-.item-3 {
+.itemthree {
   background-color: #f4f4fd;
 
 }
-.item-3 h2 {
+.itemthree h2 {
   color: #2e2f42;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
 }
-.item-3 li {
+.itemthree li {
   background-color: #ffffff;
   font-size: 20px;
   line-height: 24px;
  }
-.item-3 li h3 {
+.itemthree li h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-.item-3 li p {
+.itemthree li p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-.item-4 {
+.itemfour {
   background-color: #ffffff;
 
   
 }
-.item-4 h2 {
+.itemfour h2 {
   position: relative;
   display: inline-block;
   color: #2e2f42;
@@ -165,25 +162,25 @@ body {
 
   
 
-.item-4 li h3 {
+.itemfour li h3 {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
 }
-.item-4 li p {
+.itemfourli p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
 
-footer {
+.footer {
   background-color: #2e2f42;
   color: #f4f4fd;}
  
-.logo-2 {
+.footer > .logo-end {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
   font-size: 18px;
@@ -192,10 +189,10 @@ footer {
   margin-left: 100px;
   letter-spacing: 0.03em;
 }
-.studio {
+.footer a > .studio {
   color: #f4f4fd;
 }
-footer p {
+.footer p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;}
