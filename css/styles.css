@@ -63,8 +63,6 @@ header {
 
 .itemone {
   background-color: #2e2f42;
-  position: relative;
-  display: block;
   font-family: "Roboto", Arial, sans-serif;
   text-align: center;
 }
@@ -73,8 +71,6 @@ header {
   font-size: 56px;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  position: relative;
-  display: inline-block;
   text-align: center;
 
 }
