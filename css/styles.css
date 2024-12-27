@@ -24,7 +24,7 @@ header {
 
 
 
-.nav .list-one a {
+.nav .list-one .page {
   text-decoration: none;
   font-size: 16px;
   line-height: 1.5;
@@ -49,10 +49,10 @@ header {
   color: #434455;
   }
 
-  .nav a:hover {
+  .nav .page:hover {
     color: #404bbf;
   }
-  .nav a:focus {
+  .nav .page:focus {
     color: #404bbf;
   }
   .address a:hover {
