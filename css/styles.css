@@ -1,13 +1,9 @@
 body {
- 
   color: #434455;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;
 }
 
-header {
-  height: 150px;
-}
 .nav .logo-one {
   text-decoration: none;
   font-weight: 700;
@@ -22,8 +18,6 @@ header {
   color: #2e2f42;
 }
 
-
-
 .nav .list-one .page {
   text-decoration: none;
   font-size: 16px;
@@ -31,13 +25,10 @@ header {
   letter-spacing: 0.02em;
   font-weight: 500;
   color: #2e2f42;
-  
 }
 .address {
   font-style: normal;
 }
-
-  
 
 .address li a {
   text-decoration: none;
@@ -47,20 +38,20 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  }
+}
 
-  .nav .page:hover {
-    color: #404bbf;
-  }
-  .nav .page:focus {
-    color: #404bbf;
-  }
-  .address a:hover {
-    color: #404bbf;
-  }
-  .address a:focus {
-    color: #404bbf;
-  }
+.nav .page:hover {
+  color: #404bbf;
+}
+.nav .page:focus {
+  color: #404bbf;
+}
+.address a:hover {
+  color: #404bbf;
+}
+.address a:focus {
+  color: #404bbf;
+}
 
 .itemone {
   background-color: #2e2f42;
@@ -73,7 +64,6 @@ header {
   line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
-
 }
 .itemone button {
   background-color: #4d5ae5;
@@ -84,7 +74,6 @@ header {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
-
 }
 .itemone button:hover {
   background-color: #404bbf;
@@ -93,11 +82,8 @@ header {
   background-color: #404bbf;
 }
 
-
 .itemtwo li {
- 
   list-style: none;
-
 }
 .itemtwo li > .h-first {
   font-weight: 500;
@@ -111,7 +97,6 @@ header {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
- 
 }
 h2 {
   font-weight: 700;
@@ -125,7 +110,6 @@ h2 {
 
 .itemthree {
   background-color: #f4f4fd;
-
 }
 .itemthree h2 {
   color: #2e2f42;
@@ -134,11 +118,11 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
 }
-.itemthree li  {
+.itemthree li {
   background-color: #ffffff;
   font-size: 20px;
   line-height: 24px;
- }
+}
 .itemthree li h3 {
   font-weight: 500;
   font-size: 20px;
@@ -155,8 +139,6 @@ h2 {
 
 .itemfour {
   background-color: #ffffff;
-
-  
 }
 .itemfour h2 {
   color: #2e2f42;
@@ -188,8 +170,9 @@ p {
 
 .footer {
   background-color: #2e2f42;
-  color: #f4f4fd;}
- 
+  color: #f4f4fd;
+}
+
 .footer > .logo-end {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
@@ -200,7 +183,6 @@ p {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-
 }
 .footer a > .studio {
   color: #f4f4fd;
@@ -209,5 +191,5 @@ p {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #F4F4FD;
+  color: #f4f4fd;
 }
